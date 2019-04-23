@@ -1,9 +1,17 @@
 :root {
-   --pink: #ff1493;
+   --pink: #ed145b;
    --grey: #808080;
    --white: #ffffff;
    --black: #000000;
    --dark: #2a2a2a;
+}
+
+.text-pink {
+   color: var(--pink);
+}
+
+.bg-pink {
+   background-color: var(--pink);
 }
 
 body {
@@ -25,11 +33,17 @@ body {
 
 #navbarMain .nav-link {
    color: var(--white);
-   padding: 10px 0 10px 0;
+   /* padding: 10px 0 10px 0; */
 }
 
-.navbar-nax {
+.navbar-nav {
    z-index: 10;
+
+   background-color: var(--dark);
+}
+
+.navbar--top {
+   background-color: var(--dark);
 }
 
 .mask {
@@ -47,13 +61,17 @@ body {
 
 }
 
-.navbar--top {
-   background-color: var(--dark);
-}
 
 .collapsed~.mask {
    opacity: 0;
    visibility: hidden;
+}
+
+@media (min-width: 768px) {
+   .navbar-nav {
+      background-color: transparent;
+   }
+
 }
 
 /* nav end */
