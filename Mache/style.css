@@ -109,14 +109,19 @@ header.header {
    color: var(--pink);
 }
 
-.header-spacer {
+.header-divider {
    position: absolute;
-   left: 0;
-   bottom: 0;
-   right: 0;
-   z-index: 0;
-   transform: translateY(50%)
+   width: 100%;
+   overflow: hidden;
+   height: 20px;
+   background-image: url(static/headerSpacer.svg);
+   background-size: 100% 100%;
+   /* z-index: -5; */
+   /* transform: translateY(50%) */
 }
+
+
+
 
 
 /* header end
