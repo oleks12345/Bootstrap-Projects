@@ -1,5 +1,6 @@
 :root {
    --pink: #ed145b;
+   --lgrey: #f4f4f4;
    --grey: #808080;
    --white: #ffffff;
    --black: #000000;
@@ -29,6 +30,11 @@ body {
 
 .bg-pink {
    background-color: var(--pink);
+}
+
+.bg-lgrey {
+
+   background-color: var(--lgrey);
 }
 
 hr {
@@ -171,8 +177,5 @@ header.header {
       max-height: 900px;
    }
 }
-
-
-
 
 /* header end */
