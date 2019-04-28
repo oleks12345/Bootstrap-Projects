@@ -109,9 +109,12 @@ header.header {
    display: flex;
    flex-direction: column;
    justify-content: center;
+   align-items: center;
 }
 
 .header h1 {
+   max-width: 540px;
+   margin: 0 auto;
    font-weight: 300;
    font-size: 2rem;
 }
@@ -142,6 +145,18 @@ header.header {
    height: 20px;
    background-image: url(static/headerSpacer.svg);
    background-size: 100% 100%;
+}
+
+@media (min-width:992px) {
+
+   .header h1 {
+      max-width: none;
+   }
+
+   .header-divider {
+      height: 30px;
+   }
+
 }
 
 @media (min-height:1200px) {
