@@ -22,6 +22,7 @@ body {
    }
 }
 
+/* global styles */
 .text-pink {
    color: var(--pink);
 }
@@ -29,6 +30,14 @@ body {
 .bg-pink {
    background-color: var(--pink);
 }
+
+hr {
+   display: inline-block;
+   border-top: 2px solid var(--pink);
+   width: 210px;
+}
+
+/* global styles end */
 
 /* nav */
 .navbar .navbar-toggler {
@@ -119,11 +128,6 @@ header.header {
    font-size: 2rem;
 }
 
-.header hr {
-   display: inline-block;
-   border-top: 1px solid var(--pink);
-   width: 210px;
-}
 
 .show-more-btn {
    background-color: var(--pink);
