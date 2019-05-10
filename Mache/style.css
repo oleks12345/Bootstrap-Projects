@@ -192,5 +192,15 @@ header.header {
    line-height: 35px
 }
 
+.about a {}
+
+.about .play {
+   margin-left: 10px;
+}
+
+.about .mac {
+   width: 100%;
+}
+
 
 /* about end */
