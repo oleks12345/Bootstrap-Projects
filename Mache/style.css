@@ -192,7 +192,6 @@ header.header {
    line-height: 35px
 }
 
-.about a {}
 
 .about .play {
    margin-left: 10px;
@@ -200,6 +199,64 @@ header.header {
 
 .about .mac {
    width: 100%;
+   max-width: 950px;
+}
+
+
+@media (min-width:768px) {
+   .about {
+      display: flex;
+      align-items: flex-start;
+      padding-bottom: 70px;
+   }
+
+   .about-wrapper {
+      width: 50%;
+
+   }
+
+   .about-text {
+
+      width: 300px;
+      margin-left: auto;
+   }
+
+   .about h2 {
+      font-size: 2.3rem;
+      line-height: 50px;
+   }
+
+
+   .about .mac {
+      width: 50%;
+   }
+
+   .about p {
+      margin-bottom: 30px;
+   }
+}
+
+@media (min-width:992px) {
+   .about {
+      padding-top: 100px;
+   }
+
+   .about-text {
+      font-size: 1rem;
+      width: 400px;
+   }
+}
+
+@media (min-width:1200px) {
+   .about {
+      padding-top: 100px;
+
+      max-height: 600px
+   }
+
+   .about-text {
+      width: 500px;
+   }
 }
 
 
