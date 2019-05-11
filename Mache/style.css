@@ -102,8 +102,19 @@ hr {
 }
 
 @media (min-width: 768px) {
+   .navbar {
+      height: 80px;
+   }
+
    .navbar-nav {
       background-color: transparent;
+      align-items: center;
+   }
+
+   .navbar .navbar-brand {
+      margin-top: -6px;
+      align-self: flex-start;
+
    }
 
    .mask {
