@@ -37,3 +37,6 @@ const navCheckSection = () => {
 };
 
 document.addEventListener('scroll', navCheckSection);
+
+navCheckTop();
+navCheckSection();
