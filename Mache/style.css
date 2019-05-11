@@ -102,8 +102,19 @@ hr {
 }
 
 @media (min-width: 768px) {
+   .navbar {
+      height: 80px;
+   }
+
    .navbar-nav {
       background-color: transparent;
+      align-items: center;
+   }
+
+   .navbar .navbar-brand {
+      margin-top: -6px;
+      align-self: flex-start;
+
    }
 
    .mask {
@@ -130,7 +141,7 @@ header.header {
    max-width: 540px;
    margin: 0 auto;
    font-weight: 300;
-   font-size: 2rem;
+   font-size: 2em;
 }
 
 
@@ -157,10 +168,26 @@ header.header {
    background-size: 100% 100%;
 }
 
+@media (min-width:768px) {
+   .header {
+      padding-top: 150px !important;
+      padding-bottom: 150px !important;
+      font-size: 1.2rem;
+   }
+
+   .header hr {
+      margin: 30px 0;
+   }
+
+}
+
+
 @media (min-width:992px) {
 
-   .header h1 {
-      max-width: none;
+   .header {
+      padding-top: 250px !important;
+      padding-bottom: 250px !important;
+      font-size: 1.4rem;
    }
 
    .header-divider {
@@ -169,12 +196,24 @@ header.header {
 
 }
 
+@media (min-width:1200px) {
+   header {
+      padding-top: 290px !important;
+   }
+
+   .header h1 {
+      max-width: none;
+   }
+
+
+}
+
 @media (min-height:1200px) {
    header.header {
 
       min-height: 0;
-      height: 60vh;
-      max-height: 900px;
+      /* height: 60vh; */
+      /* max-height: 900px; */
    }
 }
 
