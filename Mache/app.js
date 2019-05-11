@@ -17,7 +17,8 @@ let currentSection = '';
 const navCheckSection = () => {
    for (let i = sections.length - 1; i >= 0; i--) {
       const section = sections[i];
-      if (window.pageYOffset > section.offsetTop - 56) {
+      const navSize = window.innerWidth >= 768 ? 80 : 56;
+      if (window.pageYOffset > section.offsetTop - navSize) {
          if (currentSection === section.id) {
             break;
          } //
