@@ -18,7 +18,7 @@ const navCheckSection = () => {
    for (let i = sections.length - 1; i >= 0; i--) {
       const section = sections[i];
       const navSize = window.innerWidth >= 768 ? 80 : 56;
-      if (window.pageYOffset > section.offsetTop - navSize) {
+      if (window.pageYOffset >= section.offsetTop - navSize) {
          if (currentSection === section.id) {
             break;
          } //
@@ -35,6 +35,17 @@ const navCheckSection = () => {
       }
    }
 };
+
+$('.navbar-nav>a').on('click', function() {
+   $('.navbar-collapse').collapse('hide');
+   const divId = $(this).attr('href');
+   $('html, body').animate(
+      {
+         scrollTop: $(divId).offset().top - (window.innerWidth >= 768 ? 80 : 56)
+      },
+      100
+   );
+});
 
 document.addEventListener('scroll', navCheckSection);
 
