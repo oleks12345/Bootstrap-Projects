@@ -17,7 +17,7 @@ body {
    font-family: Lato, Arial, sand-serif;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
    body {
       font-size: 18px;
    }
@@ -168,7 +168,7 @@ header.header {
    background-size: 100% 100%;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
    .header {
       padding-top: 150px !important;
       padding-bottom: 150px !important;
@@ -182,7 +182,7 @@ header.header {
 }
 
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
 
    .header {
       padding-top: 250px !important;
@@ -196,7 +196,7 @@ header.header {
 
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
    header {
       padding-top: 290px !important;
    }
@@ -208,7 +208,7 @@ header.header {
 
 }
 
-@media (min-height:1200px) {
+@media (min-height: 1200px) {
    header.header {
 
       min-height: 0;
@@ -242,7 +242,7 @@ header.header {
 }
 
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
    .about {
       display: flex;
       align-items: flex-start;
@@ -275,7 +275,7 @@ header.header {
    }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
    .about {
       padding-top: 100px;
    }
@@ -286,7 +286,7 @@ header.header {
    }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
    .about {
       padding-top: 150px;
 
@@ -315,10 +315,19 @@ header.header {
 }
 
 .services p {
-   max-width: 700px
+   max-width: 700px;
 }
 
+.services h3,
+.services p {
+   font-size: 1rem;
+}
 
+@media (min-width: 768px) {
 
+   .services h2 {
+      font-size: 2.3rem;
+   }
+}
 
 /* services end */
