@@ -344,3 +344,40 @@ header.header {
 
 
 /* services end */
+
+/* quotes */
+.quotes {
+   height: 500px;
+   background: center/cover url(static/hederimg.jpg);
+   color: var(--lgrey);
+
+   line-height: 30px;
+}
+
+.quote p {
+   max-width: 500px;
+}
+
+.quotes .carousel-control-next,
+.quotes .carousel-control-prev {
+   transform: translateY(130px)
+}
+
+.quotes .carousel-control-next-icon,
+.quotes .carousel-control-prev-icon {
+   stroke: 1px;
+}
+
+.quote-mark:last-of-type {
+   transform: rotate(180deg)
+}
+
+@media (min-width: 576px) {
+
+   .quotes .carousel-control-next,
+   .quotes .carousel-control-prev {
+      transform: none;
+   }
+}
+
+/* quotes end */
