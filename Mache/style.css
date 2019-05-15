@@ -354,7 +354,12 @@ header.header {
    line-height: 30px;
 }
 
+.quote {
+   height: 500px;
+}
+
 .quote p {
+   height: 300px;
    max-width: 500px;
 }
 
@@ -377,6 +382,26 @@ header.header {
    .quotes .carousel-control-next,
    .quotes .carousel-control-prev {
       transform: none;
+   }
+}
+
+@media (min-width: 768px) {
+
+   .quotes {
+      font-size: 1.2rem;
+      line-height: 40px
+   }
+
+   .quote p {
+      max-width: 600px;
+   }
+
+}
+
+@media (min-width: 992px) {
+
+   .quotes {
+      font-size: 1.5rem;
    }
 }
 
