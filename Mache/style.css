@@ -302,33 +302,40 @@ header.header {
 /* about end */
 
 
-/* services */
-.services {
+/* text-section */
+
+.text-section {
    color: #5a5a5a;
    line-height: 30px;
 
 }
 
-.services h2 {
+.text-section h2 {
    font-size: 1.5rem;
    line-height: 35px
 }
 
-.services p {
+.text-section p {
    max-width: 700px;
-}
-
-.services h3,
-.services p {
    font-size: 1rem;
 }
 
 @media (min-width: 768px) {
 
-   .services h2 {
+   .text-section h2 {
       font-size: 2.3rem;
    }
 }
+
+/* text-section end */
+
+
+/* services */
+
+.services h3 {
+   font-size: 1rem;
+}
+
 
 .services-item {
    height: 190px;
@@ -406,3 +413,11 @@ header.header {
 }
 
 /* quotes end */
+
+/* prices */
+.prices {
+   background-color: var(--lgrey);
+
+}
+
+/* prices end */
