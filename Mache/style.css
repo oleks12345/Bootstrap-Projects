@@ -331,12 +331,12 @@ header.header {
 }
 
 .services-item {
-   height: 210px;
+   height: 190px;
 }
 
 .services-img-wrapper {
-   width: 150px;
-   height: 150px;
+   width: 130px;
+   height: 130px;
    border: 1px solid var(--grey);
    border-radius: 50%;
 }
