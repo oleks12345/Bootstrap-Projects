@@ -406,3 +406,31 @@ header.header {
 }
 
 /* quotes end */
+
+/* prices */
+.prices {
+   color: #5a5a5a;
+   background-color: var(--lgrey);
+   line-height: 30px;
+
+}
+
+.prices h2 {
+   font-size: 1.5rem;
+   line-height: 35px
+}
+
+.prices p {
+   max-width: 700px;
+}
+
+
+
+@media (min-width: 768px) {
+
+   .prices h2 {
+      font-size: 2.3rem;
+   }
+}
+
+/* prices end */
