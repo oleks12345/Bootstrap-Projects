@@ -17,7 +17,7 @@ body {
    font-family: Lato, Arial, sand-serif;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
    body {
       font-size: 18px;
    }
@@ -168,7 +168,7 @@ header.header {
    background-size: 100% 100%;
 }
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
    .header {
       padding-top: 150px !important;
       padding-bottom: 150px !important;
@@ -182,7 +182,7 @@ header.header {
 }
 
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
 
    .header {
       padding-top: 250px !important;
@@ -196,7 +196,7 @@ header.header {
 
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
    header {
       padding-top: 290px !important;
    }
@@ -208,7 +208,7 @@ header.header {
 
 }
 
-@media (min-height:1200px) {
+@media (min-height: 1200px) {
    header.header {
 
       min-height: 0;
@@ -242,7 +242,7 @@ header.header {
 }
 
 
-@media (min-width:768px) {
+@media (min-width: 768px) {
    .about {
       display: flex;
       align-items: flex-start;
@@ -275,7 +275,7 @@ header.header {
    }
 }
 
-@media (min-width:992px) {
+@media (min-width: 992px) {
    .about {
       padding-top: 100px;
    }
@@ -286,7 +286,7 @@ header.header {
    }
 }
 
-@media (min-width:1200px) {
+@media (min-width: 1200px) {
    .about {
       padding-top: 150px;
 
@@ -300,3 +300,109 @@ header.header {
 
 
 /* about end */
+
+
+/* services */
+.services {
+   color: #5a5a5a;
+   line-height: 30px;
+
+}
+
+.services h2 {
+   font-size: 1.5rem;
+   line-height: 35px
+}
+
+.services p {
+   max-width: 700px;
+}
+
+.services h3,
+.services p {
+   font-size: 1rem;
+}
+
+@media (min-width: 768px) {
+
+   .services h2 {
+      font-size: 2.3rem;
+   }
+}
+
+.services-item {
+   height: 190px;
+}
+
+.services-img-wrapper {
+   width: 130px;
+   height: 130px;
+   border: 1px solid var(--grey);
+   border-radius: 50%;
+}
+
+
+
+/* services end */
+
+/* quotes */
+.quotes {
+   height: 500px;
+   background: center/cover url(static/hederimg.jpg);
+   color: var(--lgrey);
+
+   line-height: 30px;
+}
+
+.quote {
+   height: 500px;
+}
+
+.quote p {
+   height: 300px;
+   max-width: 500px;
+}
+
+.quotes .carousel-control-next,
+.quotes .carousel-control-prev {
+   transform: translateY(130px)
+}
+
+.quotes .carousel-control-next-icon,
+.quotes .carousel-control-prev-icon {
+   stroke: 1px;
+}
+
+.quote-mark:last-of-type {
+   transform: rotate(180deg)
+}
+
+@media (min-width: 576px) {
+
+   .quotes .carousel-control-next,
+   .quotes .carousel-control-prev {
+      transform: none;
+   }
+}
+
+@media (min-width: 768px) {
+
+   .quotes {
+      font-size: 1.2rem;
+      line-height: 40px
+   }
+
+   .quote p {
+      max-width: 600px;
+   }
+
+}
+
+@media (min-width: 992px) {
+
+   .quotes {
+      font-size: 1.5rem;
+   }
+}
+
+/* quotes end */
