@@ -420,6 +420,13 @@ header.header {
 
 }
 
+.prices .card {
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
 /* cards */
 .prices .card-header {
    height: 150px;
