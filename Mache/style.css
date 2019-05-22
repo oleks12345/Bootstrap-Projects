@@ -513,4 +513,12 @@ header.header {
    }
 }
 
+@media (min-width: 992px) {
+
+   .features {
+
+      padding-top: 110px
+   }
+}
+
 /* features end */
