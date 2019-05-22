@@ -571,4 +571,12 @@ img.grayscale {
    transform: translateY(-100%) rotateX(180deg);
 }
 
+@media (min-width: 992px) {
+
+   .updates {
+
+      padding-top: 110px !important;
+   }
+}
+
 /* updates end */
