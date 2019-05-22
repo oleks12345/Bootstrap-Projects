@@ -583,3 +583,20 @@ img.grayscale {
 }
 
 /* updates end */
+
+
+/* add-info */
+.add-info {
+   color: var(--white);
+   background: center/cover url(static/hederimg.jpg);
+}
+
+@media (min-width: 992px) {
+
+   .add-info {
+      padding-top: 100px !important;
+      padding-bottom: 100px !important;
+   }
+}
+
+/* add-info end */
