@@ -437,7 +437,8 @@ header.header {
 .prices .card-header {
    height: 150px;
    background-color: #5a5a5a;
-   color: var(--white)
+   color: var(--white);
+   transition: background-color 0.2s linear;
 }
 
 .prices .card:hover .card-header {
@@ -573,6 +574,7 @@ img.grayscale {
    right: 0;
    background-color: rgba(237, 20, 91, 0.8);
    opacity: 0;
+   transition: opacity 0.3s linear;
 }
 
 .updates .card:hover .update-hover {
