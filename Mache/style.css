@@ -483,6 +483,8 @@ header.header {
 
 .btn-buy:hover {
    background-color: #5a5a5a;
+   color: #fff;
+
 }
 
 /* prices end */
@@ -514,3 +516,70 @@ header.header {
 }
 
 /* features end */
+
+
+/* join us */
+
+.join-us h2 {
+   font-size: 1.5rem;
+   line-height: 35px;
+}
+
+
+.btn-join-us {
+
+   color: var(--pink);
+   background-color: #fff;
+   height: 50px;
+   width: 200px;
+   border-radius: 25px;
+}
+
+.btn-join-us:hover {
+   background-color: #5a5a5a;
+   color: #fff;
+
+}
+
+@media (min-width: 768px) {
+
+   .join-us h2 {
+      font-size: 2.25rem;
+
+      line-height: 50px;
+   }
+}
+
+/* features end */
+
+
+/* updates */
+
+.updates .card {
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+}
+
+img.grayscale {
+   filter: grayscale()
+}
+
+
+.card-spacer {
+   height: 10px;
+   transform: translateY(-100%) rotateX(180deg);
+}
+
+.btn-updates img {
+   transform: rotate(90deg)
+}
+
+@media (min-width: 992px) {
+
+   .updates {
+      padding-top: 110px !important;
+   }
+}
+
+/* updates end */

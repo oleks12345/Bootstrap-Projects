@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 14 28" width="14" height="28">
+	<defs>
+		<clipPath clipPathUnits="userSpaceOnUse" id="cp1">
+			<path d="M1 1L16 1L16 28L1 28Z" />
+		</clipPath>
+	</defs>
+	<style>
+		tspan { white-space:pre }
+		.shp0 { fill: #ed145b } 
+	</style>
+	<g id="Page 1" clip-path="url(#cp1)">
+		<path id="Path 1" class="shp0" d="M2.78,27.69l9.55,-9.55c0.98,-0.98 1.52,-2.29 1.52,-3.68c0,-1.39 -0.54,-2.7 -1.52,-3.68l-9.55,-9.55c-0.41,-0.41 -1.07,-0.41 -1.47,0c-0.41,0.41 -0.41,1.07 0,1.47l9.55,9.55c1.22,1.22 1.22,3.2 0,4.42l-9.55,9.55c-0.41,0.41 -0.41,1.07 0,1.47c0.2,0.2 0.47,0.31 0.74,0.31c0.27,0 0.53,-0.1 0.74,-0.31z" />
+	</g>
+</svg>
