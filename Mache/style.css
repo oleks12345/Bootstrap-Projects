@@ -551,3 +551,25 @@ header.header {
 }
 
 /* features end */
+
+
+/* updates */
+
+.updates .card {
+   max-width: 400px;
+   margin-left: auto;
+   margin-right: auto;
+   background-color: var(--lgrey);
+}
+
+img.grayscale {
+   filter: grayscale()
+}
+
+
+.card-spacer {
+   height: 10px;
+   transform: translateY(-100%) rotateX(180deg);
+}
+
+/* updates end */
