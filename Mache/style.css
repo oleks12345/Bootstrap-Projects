@@ -483,6 +483,8 @@ header.header {
 
 .btn-buy:hover {
    background-color: #5a5a5a;
+   color: #fff;
+
 }
 
 /* prices end */
