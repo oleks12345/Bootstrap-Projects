@@ -23,7 +23,6 @@ const navCheckSection = () => {
             break;
          } //
          else {
-            console.log('tak');
             currentSection = section.id;
             navLinks.forEach((navLink) => {
                if (navLink.href.includes('#' + section.id)) {
