@@ -486,3 +486,31 @@ header.header {
 }
 
 /* prices end */
+
+
+
+/* features */
+
+.features {
+   color: #5a5a5a;
+}
+
+.features h3 {
+   font-size: 1rem;
+
+}
+
+.features p {
+   line-height: 30px;
+   max-width: 320px;
+}
+
+@media (min-width: 768px) {
+
+   .features p {
+
+      max-width: 250px;
+   }
+}
+
+/* features end */
