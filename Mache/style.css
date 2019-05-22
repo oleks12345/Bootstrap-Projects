@@ -505,14 +505,6 @@ header.header {
    max-width: 320px;
 }
 
-@media (min-width: 768px) {
-
-   .features p {
-
-      max-width: 250px;
-   }
-}
-
 @media (min-width: 992px) {
 
    .features {
