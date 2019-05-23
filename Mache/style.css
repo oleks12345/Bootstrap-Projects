@@ -7,9 +7,7 @@
    --dark: #2a2a2a;
 }
 
-
 html {
-
    scroll-behavior: smooth;
 }
 
@@ -60,7 +58,7 @@ hr {
 }
 
 .navbar .navbar-brand span {
-   letter-spacing: 3px
+   letter-spacing: 3px;
 }
 
 .navbar .navbar-toggler-icon {
@@ -87,7 +85,6 @@ hr {
 }
 
 .mask {
-
    position: fixed;
    z-index: -1;
    top: 0;
@@ -98,11 +95,9 @@ hr {
    visibility: visible;
    background-color: rgba(42, 42, 42, 0.5);
    transition: opacity 0.4s;
-
 }
 
-
-.collapsed~.mask {
+.collapsed ~ .mask {
    opacity: 0;
    visibility: hidden;
 }
@@ -120,19 +115,16 @@ hr {
    .navbar .navbar-brand {
       margin-top: -6px;
       align-self: flex-start;
-
    }
 
    .mask {
       display: none;
    }
-
 }
 
 /* nav end */
 /* header */
 header.header {
-
    background: center/cover url(static/hederimg.jpg);
    position: relative;
    z-index: 1;
@@ -149,7 +141,6 @@ header.header {
    font-weight: 300;
    font-size: 2em;
 }
-
 
 .show-more-btn {
    background-color: var(--pink);
@@ -184,12 +175,9 @@ header.header {
    .header hr {
       margin: 30px 0;
    }
-
 }
 
-
 @media (min-width: 992px) {
-
    .header {
       padding-top: 250px !important;
       padding-bottom: 250px !important;
@@ -199,7 +187,6 @@ header.header {
    .header-divider {
       height: 30px;
    }
-
 }
 
 @media (min-width: 1200px) {
@@ -210,13 +197,10 @@ header.header {
    .header h1 {
       max-width: none;
    }
-
-
 }
 
 @media (min-height: 1200px) {
    header.header {
-
       min-height: 0;
       /* height: 60vh; */
       /* max-height: 900px; */
@@ -234,9 +218,8 @@ header.header {
 
 .about h2 {
    font-size: 1.5rem;
-   line-height: 35px
+   line-height: 35px;
 }
-
 
 .about .play {
    margin-left: 10px;
@@ -247,7 +230,6 @@ header.header {
    max-width: 950px;
 }
 
-
 @media (min-width: 768px) {
    .about {
       display: flex;
@@ -257,11 +239,9 @@ header.header {
 
    .about-wrapper {
       width: 50%;
-
    }
 
    .about-text {
-
       width: 300px;
       margin-left: auto;
    }
@@ -270,7 +250,6 @@ header.header {
       font-size: 2.3rem;
       line-height: 50px;
    }
-
 
    .about .mac {
       width: 50%;
@@ -296,7 +275,7 @@ header.header {
    .about {
       padding-top: 150px;
 
-      max-height: 680px
+      max-height: 680px;
    }
 
    .about-text {
@@ -304,21 +283,18 @@ header.header {
    }
 }
 
-
 /* about end */
-
 
 /* text-section */
 
 .text-section {
    color: #5a5a5a;
    line-height: 30px;
-
 }
 
 .text-section h2 {
    font-size: 1.5rem;
-   line-height: 35px
+   line-height: 35px;
 }
 
 .text-section p {
@@ -327,7 +303,6 @@ header.header {
 }
 
 @media (min-width: 768px) {
-
    .text-section h2 {
       font-size: 2.3rem;
    }
@@ -335,13 +310,11 @@ header.header {
 
 /* text-section end */
 
-
 /* services */
 
 .services h3 {
    font-size: 1rem;
 }
-
 
 .services-item {
    height: 190px;
@@ -353,8 +326,6 @@ header.header {
    border: 1px solid var(--grey);
    border-radius: 50%;
 }
-
-
 
 /* services end */
 
@@ -378,7 +349,7 @@ header.header {
 
 .quotes .carousel-control-next,
 .quotes .carousel-control-prev {
-   transform: translateY(130px)
+   transform: translateY(130px);
 }
 
 .quotes .carousel-control-next-icon,
@@ -387,11 +358,10 @@ header.header {
 }
 
 .quote-mark:last-of-type {
-   transform: rotate(180deg)
+   transform: rotate(180deg);
 }
 
 @media (min-width: 576px) {
-
    .quotes .carousel-control-next,
    .quotes .carousel-control-prev {
       transform: none;
@@ -399,20 +369,17 @@ header.header {
 }
 
 @media (min-width: 768px) {
-
    .quotes {
       font-size: 1.2rem;
-      line-height: 40px
+      line-height: 40px;
    }
 
    .quote p {
       max-width: 600px;
    }
-
 }
 
 @media (min-width: 992px) {
-
    .quotes {
       font-size: 1.5rem;
    }
@@ -423,14 +390,12 @@ header.header {
 /* prices */
 .prices {
    background-color: var(--lgrey);
-
 }
 
 .prices .card {
    max-width: 400px;
    margin-left: auto;
    margin-right: auto;
-
 }
 
 /* cards */
@@ -458,7 +423,6 @@ header.header {
    height: 50px;
    width: 200px;
    border-radius: 25px;
-
 }
 
 .prices-plan {
@@ -478,19 +442,15 @@ header.header {
 }
 
 .btn-buy {
-
    color: var(--white);
 }
 
 .btn-buy:hover {
    background-color: #5a5a5a;
    color: #fff;
-
 }
 
 /* prices end */
-
-
 
 /* features */
 
@@ -500,7 +460,6 @@ header.header {
 
 .features h3 {
    font-size: 1rem;
-
 }
 
 .features p {
@@ -509,15 +468,12 @@ header.header {
 }
 
 @media (min-width: 992px) {
-
    .features {
-
-      padding-top: 110px
+      padding-top: 110px;
    }
 }
 
 /* features end */
-
 
 /* join us */
 
@@ -526,9 +482,7 @@ header.header {
    line-height: 35px;
 }
 
-
 .btn-join-us {
-
    color: var(--pink);
    background-color: #fff;
    height: 50px;
@@ -539,11 +493,9 @@ header.header {
 .btn-join-us:hover {
    background-color: #5a5a5a;
    color: #fff;
-
 }
 
 @media (min-width: 768px) {
-
    .join-us h2 {
       font-size: 2.25rem;
 
@@ -552,7 +504,6 @@ header.header {
 }
 
 /* features end */
-
 
 /* updates */
 
@@ -563,7 +514,7 @@ header.header {
 }
 
 img.grayscale {
-   filter: grayscale()
+   filter: grayscale();
 }
 
 .update-hover {
@@ -589,22 +540,22 @@ img.grayscale {
    height: 10px;
    position: absolute;
    bottom: 0;
+   left: 0;
+
    transform: rotateX(180deg);
 }
 
 .btn-updates img {
-   transform: rotate(90deg)
+   transform: rotate(90deg);
 }
 
 @media (min-width: 992px) {
-
    .updates {
       padding-top: 110px !important;
    }
 }
 
 /* updates end */
-
 
 /* add-info */
 .add-info {
@@ -613,7 +564,6 @@ img.grayscale {
 }
 
 @media (min-width: 992px) {
-
    .add-info {
       padding-top: 100px !important;
       padding-bottom: 100px !important;
@@ -637,13 +587,11 @@ img.grayscale {
    color: #fff;
 }
 
-
 /* download end */
 
 /* footer */
 .footer {
    background-color: #2b2b2b;
-
 }
 
 /* footer end */
